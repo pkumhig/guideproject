@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
     <title>1page</title>
-    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet/less" href="../less/1page.less">
-    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet/less" href="less/1page.less">
+    <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
     <div class="full">
         <div class="nav pr">
-            <img class="close_img" src="../image/cross2.png" alt="">
+            <img class="close_img" src="image/cross2.png" alt="">
+            <p class="content">请根据图片的提示,进行下一步的操作</p>
         </div>
-        <div class="auto_content row">
+            <div class="auto_content row">
                 <div class="col-xs-5 a_c_l pr">
+                    <img class="img_l" src="./image/img01_l.png" alt="">
                     <a href="#">
                         <span class="glyphicon glyphicon-menu-left pa" aria-hidden="true"></span>
                         <span class="bgc_blkl pa"></span>
@@ -22,15 +24,15 @@
                 </div>
                 <div class="col-xs-2 line"></div>
                 <div class="col-xs-5 a_c_r">
+                    <img class="img_r" src="./image/img01_r.png" alt="">
                     <a href="#">
                         <span class="glyphicon glyphicon-menu-right pa" aria-hidden="true"></span>
                         <span class="bgc_blkr pa"></span>
                     </a>
                 </div>
-        </div>
+            </div>
         <div class="guide_idx">
             <div class="dots pr">
-                <div class="dots_line"></div>
                 <a href="#">
                     <span class="dot_f dot_ pa"></span>
                     <span class="dot_s dot_ pa"></span>
@@ -38,13 +40,14 @@
                     <span class="dot_fo dot_ pa"></span>
                     <span class="dot_fi dot_ pa"></span>
                 </a>
+                <p class="pa">版本号:2.0</p>
             </div>
-            <div class="btn">
-                <button type="button" class="btn btn-success btn-sm">下一步</button>
-            </div>
-            <p class="fr">版本号:2.0</p>
         </div>
     </div>
-    <script src="../lib/less/less.js"></script>
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./xjs/dobot.js"></script>
+    <script src="./xjs/qwebchannel.js"></script>
+    <script src="./lib/less/less.js"></script>
+    <script src="js/1page.js"></script>
 </body>
 </html>

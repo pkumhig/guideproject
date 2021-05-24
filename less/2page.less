@@ -10,6 +10,7 @@ body,html{
   >.nav{
     width: 100%;
     height: 60px;
+    padding-left: 32px;
     background-color: #232534;
     >.close_img{
       width: 32px;
@@ -18,13 +19,21 @@ body,html{
       right: 18px;
       top:18px;
     }
+    >.content{
+      line-height: 60px;
+    }
   }
   >.auto_content{
-    height: 420px;
+    height: 460px;
     background-color: #232534;
     >.a_c_l{
-      height: 420px;
+      height: 460px;
       padding: 0;
+      >.img_l{
+        width: 396px;
+        height: 100%;
+        margin-top: 5px;
+      }
       >a{
         >.glyphicon-menu-left{
           font-size: 22px;
@@ -35,7 +44,7 @@ body,html{
           display: block;
           width: 30px;
           height: 50px;
-          background-color: rgba(255,255,255,0.1);
+          background-color: rgba(255,255,255,0.3);
           top:184px;
         }
         &:hover{
@@ -45,14 +54,20 @@ body,html{
     }
     >.line{
       width: 1px;
-      height: 390px;
+      height: 100%;
       background: -webkit-linear-gradient(rgba(204, 197, 191, 0.1),#ccc,rgba(204, 197, 191, 0.1));
       padding: 0;
       margin: 0 65px;
     }
     >.a_c_r{
-      height: 420px;
+      height: 460px;
       padding: 0;
+      >.img_r{
+        width: 399px;
+        height: 100%;
+        margin-left: -63px;
+        margin-top: 5px;
+      }
       >a{
         >.glyphicon-menu-right{
           font-size: 22px;
@@ -63,7 +78,7 @@ body,html{
           display: block;
           width: 30px;
           height: 50px;
-          background-color: rgba(255,255,255,0.1);
+          background-color: rgba(255,255,255,0.3);
           top:184px;
           right:-2px;
         }
@@ -78,17 +93,12 @@ body,html{
     margin-left: 0;
   }
   >.guide_idx{
-    height: 120px;
+    height: 80px;
     background-color: #2f3045;
     >.dots{
       width: 400px;
-      height: 60px;
       margin-left: 206px;
-      padding-top: 44px;
-      >.dots_line{
-        height: 1px;
-        background:-webkit-linear-gradient(left,rgba(204, 197, 191, 0.1),#2687b2,rgba(204, 197, 191, 0.1));
-      }
+      padding-top: 43px;
       >a{
         >.dot_f{
           left:70px;
@@ -107,24 +117,5 @@ body,html{
         }
       }
     }
-    >.btn_fa{
-      width: 100%;
-      height: 60px;
-      padding: 22px 260px 6px 260px;
-      >.btn_up{
-        width: 112px;
-      }
-      >.btn_down{
-        width: 112px;
-      }
-    }
   }
-}
-.dot_{
-  display: block;
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  bottom:10px;
-  border-radius: 50%;
 }

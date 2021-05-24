@@ -122,6 +122,16 @@ s, i, em {
 .df {
     display: flex;
 }
-
+.dot_{
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    bottom:-5px;
+    border-radius: 50%;
+}
+.cil_cor{
+    background-color: #6dff09;
+}
 /*css初始化完成*/
 
