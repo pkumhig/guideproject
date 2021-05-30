@@ -9,20 +9,20 @@ $('.close_img').click(function () {
 $('.dot_fo').addClass('cil_cor');
 //点击左右箭头,实现页面之间的调整
 $('.bgc_blkl').click(function () {
-    window.location.href = "http://localhost:63342/guideproject/index/3page.html";
+    window.location.href = "index/3page.html";
 });
 $('.bgc_blkr').click(function () {
-    window.location.href = "http://localhost:63342/guideproject/index/5page.html";
+    window.location.href = "index/5page.html";
 });
 $('.dot_f').click(function () {
-    window.location.href = "../index.html";
+    window.location.href = "/index/index.html";
 });
 $('.dot_s').click(function () {
-    window.location.href = "http://localhost:63342/guideproject/index/2page.html";
+    window.location.href = "index/2page.html";
 });
 $('.dot_t').click(function () {
-    window.location.href = "http://localhost:63342/guideproject/index/3page.html";
+    window.location.href = "index/3page.html";
 });
 $('.dot_fi').click(function () {
-    window.location.href = "http://localhost:63342/guideproject/index/5page.html";
+    window.location.href = "index/5page.html";
 });
