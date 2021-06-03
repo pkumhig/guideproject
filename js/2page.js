@@ -9,13 +9,13 @@ $('.close_img').click(function () {
 $('.dot_s').addClass('cil_cor');
 //点击左右箭头,实现页面之间的调整
 $('.bgc_blkl').click(function () {
-    window.location.href = "index/index.html";
+    window.location.href = "../index.html";
 });
 $('.bgc_blkr').click(function () {
     window.location.href = "index/3page.html";
 });
 $('.dot_f').click(function () {
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 });
 $('.dot_t').click(function () {
     window.location.href = "index/3page.html";

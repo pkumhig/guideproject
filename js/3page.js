@@ -15,7 +15,7 @@ $('.bgc_blkr').click(function () {
     window.location.href = "index/4page.html";
 });
 $('.dot_f').click(function () {
-    window.location.href = "index/index.html";
+    window.location.href = "../index.html";
 });
 $('.dot_s').click(function () {
     window.location.href = "index/2page.html";

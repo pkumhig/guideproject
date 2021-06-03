@@ -63,7 +63,6 @@ body {
 }
 
 a {
-    color: #666;
     text-decoration: none;
 }
 
@@ -126,9 +125,16 @@ s, i, em {
     display: block;
     width: 12px;
     height: 12px;
+    margin-left: 60px;
     background-color: #fff;
-    bottom:-5px;
     border-radius: 50%;
+}
+.z-index{
+    z-index:100;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
 }
 .cil_cor{
     background-color: #6dff09;
